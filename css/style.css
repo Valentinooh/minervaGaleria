@@ -57,7 +57,7 @@ h2 {
   background-color: #00a0d1;
 }
 
-.loslinks:hover li {
+.loslinks:active li {
   display: flex;
 }
 
