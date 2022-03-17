@@ -11,7 +11,7 @@ header {
   background-color: #0081a7;
 }
 a {
-  color: #efb810;
+  color: white;
   text-decoration: none;
   font-style: italic;
 }
@@ -259,28 +259,4 @@ iframe {
     font-size: small;
     font-family: italic;
   }
-}
-/*----------------------*/
-/*aca van las animaciones*/
-/*----------------------*/
-nav {
-  width: 480px;
-  height: 120px;
-}
-nav ul:hover {
-  transform: scale(1.2);
-  transition: all 1.5s ease-out;
-  transform:translate(-100px);
-}
-h1 {
-  background-image: linear-gradient(to top, blue, green);
-}
-h2:hover
- {transform: scale(1.2);
-  transition: all 1.5s;
-}
-footer div h2:hover {
-  transform: scale(2);
-  transition: all 2s ease-out;
-  transform: translate(70px);
 }
